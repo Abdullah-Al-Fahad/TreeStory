@@ -115,5 +115,4 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-
-**Developed by [Abdullah Al Fahad]** - Feel free to reach out for any questions or suggestions!
+Feel free to reach out for any questions or suggestions!
