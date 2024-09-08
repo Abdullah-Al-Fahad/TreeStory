@@ -1,0 +1,36 @@
+.homepage-container {
+  background: linear-gradient(to right, #e0e0e0, #f7f7f7); /* Gradient background */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Align items in a column */
+  padding: 0 20px; /* Padding for responsiveness */
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 30px; /* Space between intro section and login form */
+}
+
+.intro-section h1 {
+  font-size: 2.5rem; /* Larger font size for the title */
+  color: #0b7014; /* Blue color for the title */
+}
+
+.intro-section p {
+  font-size: 1.25rem; /* Slightly larger font size for the tagline */
+  color: #555; /* Darker gray color for the tagline */
+  margin-top: 10px; /* Space above the tagline */
+}
+
+.custom-card {
+  width: 100%; /* Full width within its container */
+  max-width: 500px; /* Maximum width of the card */
+}
+
+.custom-card-header {
+  background-color: #196b2b; /* Blue background */
+  height: 60px; /* Adjust height as needed */
+  border-bottom: none; /* Remove border */
+}

@@ -1,0 +1,192 @@
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Tutorial Section Styling */
+.tutorial-list li {
+    font-weight: bold; /* Make the list items bold */
+    color: #000000;
+}
+
+.tutorial-list {
+    list-style-type: decimal;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    color: #495057;
+}
+
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #495057;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.story-form, .section-form {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 1.5rem;
+}
+
+.input-field {
+    border-radius: 4px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+.submit-btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.sections-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.section-btn {
+    flex: 1 1 100%;
+    background-color: #ffffff; /* White background for section buttons */
+    color: #007bff; /* Blue text color for contrast */
+    border: 1px solid #dee2e6; /* Light border for definition */
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: left; /* Align text to the left */
+}
+
+.section-btn:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text color on hover */
+}
+
+.branch-list {
+    list-style: none;
+    padding: 0;
+}
+
+.branch-item {
+    background-color: #e9ecef;
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.error-alert {
+    margin-top: 1rem;
+}
+
+/* Success Toast Styling */
+.success-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050; /* Ensure it appears on top of other content */
+}
+
+.toast {
+    background-color: #ffffff; /* White background for toast */
+    color: #343a40; /* Dark text for readability on white background */
+    border: 1px solid #dee2e6; /* Light border to match Bootstrap's default styling */
+}
+
+.toast-body {
+    padding: 1rem;
+}
+
+/* Fix for any potential green background issue */
+.toast .toast-body {
+    background-color: #ffffff; /* White background for toast body */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 1rem; /* Space between buttons */
+    margin-top: 1rem; /* Space above the container */
+}
+
+
+.create-story-page {
+    background: url('https://wallpapers.com/images/featured/cartoon-forest-background-pk4lm7s01x1t3ckt.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #110f0f; /* Ensure text is readable on the background */
+}
+
+.create-story-page {
+    padding: 20px;
+}
+
+.story-form, .section-form {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.submit-btn, .finish-btn {
+    margin-right: 10px;
+}
+
+.tutorial-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.tutorial-section h3 {
+    margin-top: 0;
+}
+
+.tutorial-section ol {
+    padding-left: 20px;
+}
+
+.success-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

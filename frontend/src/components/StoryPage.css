@@ -1,0 +1,48 @@
+/* App.css */
+
+/* General app container style */
+.app-container {
+    background-color: #f8f9fa; /* Light background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar customization */
+.navbar {
+    background-color: #343a40; /* Dark background for navbar */
+}
+
+/* Center and space buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; /* Use absolute positioning */
+    top: 50%; /* Position from the top */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center vertically */
+    width: 100%; /* Full width to align content centrally */
+}
+
+.custom-button {
+    width: 250px;
+    height: 80px;
+    font-size: 20px;
+    border-radius: 12px; /* Rounded corners */
+    margin: 10px 0; /* Vertical margin only */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker primary color */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Ensure the content is centered vertically and horizontally */
+.min-vh-100 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative; /* Position relative to contain the absolute elements */
+}

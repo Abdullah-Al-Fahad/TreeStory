@@ -1,0 +1,74 @@
+/* ReadStory.css */
+
+/* General Container Styling */
+.container {
+  padding: 20px;
+}
+
+/* Story Listing Styles */
+.list-group-item {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item .btn-primary {
+  margin-left: auto;
+}
+
+/* Card Styles */
+.section-card {
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.section-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.section-card .card-text {
+  font-size: 1.125rem;
+}
+
+/* Alert Styles */
+.alert-danger {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+/* Button Styles */
+.btn-success {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 0.25rem;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 0.25rem;
+  border: 1px solid #ddd;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.modal-footer {
+  border-top: 1px solid #ddd;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .section-card {
+    margin-bottom: 15px;
+  }
+}
